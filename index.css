@@ -70,7 +70,13 @@ font-size:36px;
 text-align:center;
 }
 .information-img{
-display:flex;}
+display:flex;
+text-align:center;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 120px;
+}
 
 figure img{
 width:130px;
@@ -79,6 +85,16 @@ border:2px solid #3882F6;
 border-radius:5px;
 }
 figcaption{
-text-align:center;
-color:IF2937}
+display: flex;
+color:#1F2937}
+
+.comment-container{
+  background-color: #E5E7EB;
+}
+.comment-container p {
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+
+}
 
