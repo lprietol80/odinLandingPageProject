@@ -5,48 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400&display=swap" rel="stylesheet">
  
 </head>
 <body>
+  <!-- /////Header Section/////-->
 <header class="header-container">
-  <div>
-  <h1 id="header-logo">Header Logo</h1>
+  <div class="header-left">
+    <h1>Header Logo</h1>
   </div>
-  <div>
-  <ul class="list-container">
-    <li><a href="linkone">header link one</a></li>
-    <li><a href="linktwo">header link two</a></li>
-    <li><a href="linkthree">header link three</a></li>
-  </ul>
-  </div>
+  <div class="header-right">
+    <ul>
+      <li class="header-link"><a href="linkOne">header link one</a>
+        
+        </li>
+      <li class="header-link"><a href="linkTwo">header link two</a></li>
+      <li class="header-link"><a href="linkThree">header link three</a></li>
+    </ul>
 
+  </div>
 </header>
+<!-- /////Nav Section/////-->
 <nav class="nav-container">
-  <div>
-    <h1 id="main-title">This website is awsome </h1>
-    <p id="main-p">This website has some subtext that goes here under te main title. It &apos;s a smaller font and color is lower contrast</p>
-    <button>Sign up</button>
+  <div class="nav-section-left">
+    <h1 id="nav-title">This website is awsome </h1>
+    <p id="main-para">This website has some subtext that goes here under te main title. It &apos;s a smaller font and color is lower contrast</p>
+    <button class="nav-button">Sign up</button>
   </div>  
-  <div class="img-container"><p>This is a placeholder for an image</p></div>
+  <div class="nav-section-right">
+    <img src="img/images.webp" alt="profile image">
+  </div>
 
 </nav>
 <main class="main-container">
-<h2 id="information-header">Some random informacion</h2>
+<h2 id="information-title">Some random information.</h2>
 <div class="information-img"> 
 <figure>
-<img src="" alt="">
+<img src="img/photo.jpg" alt="sample photo">
 <figcaption>this is some subtext under an illustration or image</figcaption>
 </figure>
 <figure>
-<img src="" alt="">
+<img src="img/photo2.jpg" alt="sample photo">
 <figcaption>this is some subtext under an illustration or image</figcaption>
 </figure>
 <figure>
-<img src="" alt="">
+<img src="img/photo.jpg" alt="sample photo">
 <figcaption>this is some subtext under an illustration or image</figcaption>
 </figure>
 <figure>
-<img src="" alt="">
+<img src="img/photo2.jpg" alt="sample photo">
 <figcaption>this is some subtext under an illustration or image</figcaption>
 </figure>
 </div>
@@ -62,7 +71,17 @@
 </div>
 
 </main>
-<footer></footer>
+<footer class="footer-container">
+  <div class="footer-right">
+    <h2 class="footer-title">Call to action! It&#39;s time!</h2>
+    <p class="footer-para">Sign up for our product by clicking that button right over there!</p>
+  </div>
+  <div class="footer-button-container">
+    <button class="footer-button">Sign up</button>
+  </div>
+
+
+</footer>
 
 
 
